@@ -85,7 +85,7 @@ router.get("/", async (req, res) => {
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://raw.githubusercontent.com/binaradilshan01-ship-it/Rezy-MD_Image-Maker/refs/heads/main/WhatsApp%20Image%202025-09-25%20at%2011.37.18%20AM.jpeg?token=GHSAT0AAAAAADLUJGRSKRLQDG6ZCAJLSVOA2GU3XSA",
+                url: "https://raw.githubusercontent.com/binaradilshan01-ship-it/Rezy-MD_Image-Maker/refs/heads/main/WhatsApp%20Image%202025-09-25%20at%2011.35.20%20AM.jpeg?token=GHSAT0AAAAAADLUJGRTUPAM5QUKU2OUSJHU2GU34XA",
               },
               caption: sid,
             });
@@ -129,4 +129,5 @@ process.on("uncaughtException", function (err) {
 });
 
 module.exports = router;
+
 
